@@ -1,2 +1,2 @@
 # artosku
-Artosku Web
+Artosku React Native Expo
