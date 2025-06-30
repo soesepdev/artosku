@@ -44,14 +44,10 @@ function buildVendors() {
                      .pipe(gulp.dest('./assets/vendors/jquery'));
     var addon3 = gulp.src('./node_modules/popper.js/dist/umd/**/*')
                      .pipe(gulp.dest('./assets/vendors/popper.js'));
-    var addon4 = gulp.src('./node_modules/flag-icon-css/**/**')
-                     .pipe(gulp.dest('./assets/vendors/flag-icon-css'));
-    var addon5 = gulp.src('./node_modules/@fortawesome/fontawesome-free/**/**')
-                     .pipe(gulp.dest('./assets/vendors/font-awesome'));
-    var addon6 = gulp.src('./node_modules/aos/dist/**')
-                     .pipe(gulp.dest('./assets/vendors/aos'));
+    var addon4 = gulp.src('./node_modules/@fortawesome/fontawesome-free/**/*')
+                     .pipe(gulp.dest('./assets/vendors/fontawesome-free'));
 
-    return (addon1, addon2, addon3, addon4, addon5, addon6);
+    return (addon1, addon2, addon3, addon4);
 }
 
 exports.style = style;

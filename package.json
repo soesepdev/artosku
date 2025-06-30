@@ -1,7 +1,7 @@
 {
-  "name": "oleez-landing-page",
+  "name": "foi-app-landing-page",
   "version": "1.0.0",
-  "description": "Bootstrap 4 based Agency Landing Page",
+  "description": "Bootstrap 4 based FOI App Landing Page",
   "main": "index.html",
   "scripts": {
     "start": "gulp watch",
@@ -10,10 +10,11 @@
   },
   "keywords": [
     "bootstrap4",
-    "landing-page",
-    "agency-landing-page",
-    "oleez-landing-page",
-    "bs4-landing-page"
+    "lead-ui",
+    "design-kit",
+    "ui-kit",
+    "lead-ui-kit",
+    "lead-bs4-ui-kit"
   ],
   "author": "Bootstrapdash",
   "license": "Bootstrapdash Licence<https://www.BootstrapDash.com/license/>",
@@ -29,9 +30,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
-    "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
-    "flag-icon-css": "^3.4.6",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1"
   }
